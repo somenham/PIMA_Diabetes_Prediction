@@ -1,0 +1,4 @@
+pandas>=2.2
+streamlit>=1.43
+joblib==1.5.3
+scikit-learn==1.6.1
