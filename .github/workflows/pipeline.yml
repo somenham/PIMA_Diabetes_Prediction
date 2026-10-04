@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install Dependencies
-        run: pip install -r self_paced_courses_1_mlops/requirements.txt
+        run: pip install -r self_paced_courses_1_mlops/deployment/requirements.txt
       - name: Run Data Preparation
         run: python self_paced_courses_1_mlops/model_building/prep.py
       - name: Commit and push processed data
